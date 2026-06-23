@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Amber Coffee | Cozy Coffee Shop in Odesa</title>
+    <meta name="description" content="Amber Coffee is a cozy coffee shop in Odesa offering specialty coffee, fresh pastries and a warm atmosphere.">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="logo">Amber Coffee</span>
+            <button class="burger" id="burger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav id="nav">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="hero">
+            <div>
+                <h1>Amber Coffee</h1>
+                <p>Where every cup tells a story</p>
+                <a href="#contact" class="hero__btn">Book a Table</a>
+            </div>
+        </div>
+
+        <div class="about fade-in" id="about" >
+            <div class="container">
+                <div class="about__text">
+                    <h2>About us</h2>
+                    <p>Welcome to Amber Coffee — a cozy spot in the heart of Odesa where great coffee meets warm atmosphere. We source our beans from local roasters and bake our pastries fresh every morning. Whether you're here to work, meet friends, or simply enjoy a quiet moment — we're glad you stopped by.</p>
+                </div>
+                <div class="about__image">
+                    <div class="slider">
+                        <img src="img/image2.webp" alt="interior" class="slider__img active">
+                        <img src="img/image3.webp" alt="interior" class="slider__img">
+                        <img src="img/image4.webp" alt="interior" class="slider__img">
+                        <button class="slider__btn slider__btn--prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="slider__btn slider__btn--next"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu fade-in" id="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu__cards">
+                    <div class="menu__card fade-in">
+                        <img src="img/Espresso.webp" loading="lazy" alt="Espresso">
+                        <div class="menu__card-info">
+                            <h3>Espresso</h3>
+                            <p>Rich and bold shot of freshly ground coffee</p>
+                            <span>$2.50</span>
+                        </div>
+                    </div>
+                    <div class="menu__card fade-in">
+                        <img src="img/Cappuccino.webp" loading="lazy" alt="Cappuccino">
+                        <div class="menu__card-info">
+                            <h3>Cappuccino</h3>
+                            <p>Espresso with steamed milk and thick foam</p>
+                            <span>$3.50</span>
+                        </div>
+                    </div>
+                    <div class="menu__card fade-in">
+                        <img src="img/Latte.webp" loading="lazy" alt="Latte">
+                        <div class="menu__card-info">
+                            <h3>Latte</h3>
+                            <p>Smooth espresso with creamy steamed milk</p>
+                            <span>$4.00</span>
+                        </div>
+                    </div>
+                    <div class="menu__card fade-in">
+                        <img src="img/Croissant.webp" loading="lazy" alt="Croissant">
+                        <div class="menu__card-info">
+                            <h3>Croissant</h3>
+                            <p>Buttery and flaky, baked fresh every morning</p>
+                            <span>$2.00</span>
+                        </div>
+                    </div>
+                    <div class="menu__card fade-in">
+                        <img src="img/Cheesecake.webp" loading="lazy" alt="Cheesecake">
+                        <div class="menu__card-info">
+                            <h3>Cheesecake</h3>
+                            <p>Classic New York style with berry topping</p>
+                            <span>$4.50</span>
+                        </div>
+                    </div>
+                    <div class="menu__card fade-in">
+                        <img src="img/Avocado Toast.webp" loading="lazy" alt="Avocado Toast">
+                        <div class="menu__card-info">
+                            <h3>Avocado Toast</h3>
+                            <p>Sourdough bread with fresh avocado and herbs</p>
+                            <span>$6.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="benefits fade-in" id="why-us">
+            <div class="container">
+                <h2>Why Us</h2>
+                <div class="benefits__cards">
+                    <div class="benefits__card fade-in">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <h3>Fresh Beans Daily</h3>
+                        <p>We source our coffee beans from local roasters and grind them fresh every morning for the perfect cup.</p>
+                    </div>
+                    <div class="benefits__card fade-in">
+                        <i class="fa-solid fa-heart"></i>
+                        <h3>Made with Love</h3>
+                        <p>Every drink and pastry is prepared with care and attention to detail by our passionate team.</p>
+                    </div>
+                    <div class="benefits__card fade-in">
+                        <i class="fa-solid fa-couch"></i>
+                        <h3>Cozy Atmosphere</h3>
+                        <p>Whether you come alone or with friends, our space is designed to make you feel right at home.</p>
+                    </div>
+                    <div class="benefits__card fade-in">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h3>Eco Friendly</h3>
+                        <p>We use biodegradable packaging and support sustainable farming practices in everything we do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews" id="reviews">
+            <div class="container">
+                <h2>What People Say</h2>
+                <div class="reviews__cards">
+                    <div class="reviews__card fade-in">
+                        <div class="reviews__stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Best coffee in Odesa! The atmosphere is cozy and the staff is always friendly. My go-to spot every morning."</p>
+                        <span>— Maria K.</span>
+                    </div>
+                    <div class="reviews__card fade-in">
+                        <div class="reviews__stars">⭐⭐⭐⭐⭐</div>
+                        <p>"The croissants are absolutely amazing — fresh every morning. And the latte art is beautiful!"</p>
+                        <span>— Dmytro S.</span>
+                    </div>
+                    <div class="reviews__card fade-in">
+                        <div class="reviews__stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Perfect place to work remotely. Great Wi-Fi, excellent coffee and a very welcoming vibe."</p>
+                        <span>— Anna V.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact fade-in" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact__wrapper">
+                    <form class="contact__form" id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>15 Deribasivska Street, Odesa</p>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+380 93 123 4567</p>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Mon–Fri: 8:00 – 22:00<br>Sat–Sun: 9:00 – 23:00</p>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>hello@ambercoffee.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <span class="logo">Amber Coffee</span>
+                    <p>Where every cup tells a story</p>
+                </div>
+                <div class="footer__socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Amber Coffee. All rights reserved.</p>
+                <address>15 Deribasivska Street, Odesa</address>
+            </div>
+        </div>
+    </footer>
+
+    <div class="form__success" id="form-success">
+        <div class="form__success-box">
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We'll get back to you soon.</p>
+            <button onclick="document.getElementById('form-success').classList.remove('visible')">Close</button>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+</body>
+</html>
